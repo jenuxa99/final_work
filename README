@@ -1,0 +1,22 @@
+# Текстовое описание
+
+*Добрый день! Меня зовут Циленко Евгений. Тут я опишу решение задачи.*
+
+* Создал массив <span style="color:yellow"><span style="color:yellow">"Arr"</span></span> с переменной <span style="color:yellow">"i"</span> и определил его размер <span style="color:yellow">"size"</span>.
+
+* Использовал <span style="color:white">"System.Threading.Thread.Sleep(1000);"</span> чтобы строки появлялись с небольшой задержкой для плавного восприятия информации.
+
+* Поставил заполнение первого массива <span style="color:yellow">"Arr"</span> вручную через цикл <span style="color:violet">"while"</span>, пока количество элементов не станет равным размеру массива.
+
+* Вывел все введённые значения.
+
+* Создал второй массив <span style="color:red">"InnerArr"</span> с переменной <span style="color:red">"j"</span> и определил его размер <span style="color:red">"innerSize = 1"</span>.
+
+* Заполнил второй массив <span style="color:red">"InnerArr"</span> через цикл <span style="color:violet">"for"</span>, проходищий перебором по первому массиву <span style="color:yellow">"Arr"</span>: если срабатывало условие, что элемент <span style="color:yellow">"i"</span> 
+массива <span style="color:yellow">"Arr"</span> состоит не более, чем из 3х знаков, тогда элементу <span style="color:red">"j"</span> массива <span style="color:red">"InnerArr"</span> присваивалось значение элемента <span style="color:yellow">"i"</span> массива <span style="color:yellow">"Arr"</span> 
+c последующим увеличением размера <span style="color:red">"innerSize"</span> массива <span style="color:red">"InnerArr"</span>.
+
+Таким образом на выходе я получил массив <span style="color:red">"InnerArr"</span> ограниченного размера с элементами состоящими не более, чем из **3х знаков**.
+
+*Надеюсь, я правильно описал техническую документацию, поскольку не представляю, как должен выглядеть шаблон.
+В любом случае, это был полезный и интересный опыт*.
